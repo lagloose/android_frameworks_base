@@ -231,7 +231,7 @@ public class CasRIL extends RIL implements CommandsInterface {
         rr.release();
     }
 
-    @Override
+    /*@Override
     protected Object
     responseOperatorInfos(Parcel p) {
         String strings[] = (String [])responseStrings(p);
@@ -255,7 +255,7 @@ public class CasRIL extends RIL implements CommandsInterface {
         }
 
         return ret;
-    }
+    }*/
 
     protected Object
     responseIMSI(Parcel p) {
